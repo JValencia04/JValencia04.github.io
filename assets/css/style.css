@@ -179,6 +179,9 @@
     color: var(--color-blue-500);
   }
 }
+body {
+  background-color: aqua;
+}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
