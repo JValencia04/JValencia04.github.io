@@ -1,106 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Portafolio Personal | Javier Valencia</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link href="./assets/src/style.css" rel="stylesheet"> 
-    </head>
-
-    <body>
-        <header>
-            <h1>Javier Valencia | Ingeniero en Informática</h1>
-            <h1 class="text-4xl font-bold text-blue-500">
-    ¡Hola Tailwind!
-</h1>
-            <nav>
-                <ul>
-                    <li><a href="#cv">cv</a></li>
-                    <li><a href="#portafolio">portafolio</a></li>
-                    <li><a href="#contacto">contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <div class="toggle-cont">
-        <input class="toggle-input" id="toggle" type="checkbox">
-
-        <label class="toggle-label" for="toggle">
-            <div class="cont-icon">
-                <div class="sparkle" style="--deg: 0deg; --duration: 20;"></div>
-                <div class="sparkle" style="--deg: 45deg; --duration: 30;"></div>
-                <div class="sparkle" style="--deg: 90deg; --duration: 40;"></div>
-                <div class="sparkle" style="--deg: 135deg; --duration: 50;"></div>
-                <div class="sparkle" style="--deg: 180deg; --duration: 60;"></div>
-                <div class="sparkle" style="--deg: 225deg; --duration: 70;"></div>
-                <div class="sparkle" style="--deg: 270deg; --duration: 80;"></div>
-                <div class="sparkle" style="--deg: 315deg; --duration: 90;"></div>
-            </div>
-        </label>
-    </div>
-
-        <section id="cv">
-            <h2>Mi CV</h2>
-            <h3>Perfil Profesional</h3>
-            <p>Mi nombre es Javier Valencia, Tengo 21 años y me encuentro estudiando Ingenieria en Informática en Duoc UC, además estoy interesado en el área de tecnología, especialmente en el desarrollo de software, hardware, armado y mantenimiento de computadores y ciberseguridad. Me interesa continuar adquiriendo conocimientos y desarrollar nuevas habilidades que me permitan crecer profesionalmente en el área informática.</p>
-            <h3>Educación</h3>
-            <p>4 semestre - Ingeniero en Informática - Duoc UC</p>
-            <h3>Experiencia Laboral</h3>
-            <p>Actualmente cuento con experiencia en el area de atencion al cliente y apoyo en ventas trabajando los fines de semana en una empresa llamada Apicamp dedicada a la elaboracion y venta de productos apícolas naturales</p>
-        </section>
-
-        <section id="portafolio">
-            <h2>Mi Portafolio</h2>
-            <h3>Proyectos</h3>
-            <ol>
-                <li>
-                    <h4>AuraMove Api</h4>
-                    <p>Proyecto de desarrollo de una API para la gestión de información relacionada con actividad física. Fue desarrollada utilizando Java y Spring Boot, con conexión a una base de datos MySQL.</p>
-                </li>
-
-                <li>
-                    <h4>Hardware y mantenimiento de computadores</h4>
-                    <p>Proyecto personal enfocado en el aprendizaje y conocimiento de hardware, componentes y armado de computadores. Realicé mantenimiento práctico de computadores, desmontando y volviendo a ensamblar sus componentes para aprender paso a paso el proceso de armado y conocer en mayor profundidad el funcionamiento y la organización de las distintas partes de un equipo.</p>
-                </li>
-            </ol>
-        </section>
-
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <ul>
-                <li>
-                    <h4>Correo Electrónico</h4>
-                    <p>javier.valencia@duocuc.cl</p>
-                </li>
-
-                <li>
-                    <h4>Github</h4>
-                    <p><a href="https://github.com/JValencia04" target="_blank">https://github.com/JValencia04</a></p>
-                </li>
-                
-                <li>
-                    <h4>Numero de Telefono</h4>
-                    <p>+56 9 1234 5678</p>
-                </li>
-                
-                <li>
-                    <h4>Direccion</h4>
-                    <p>El Carmen, El monte</p>
-                </li>
-            </ul>
-        </section>
-
-        <script>
-        const toggle = document.getElementById("toggle");
-
-        toggle.addEventListener("change", function () {
-            document.body.classList.toggle("light-mode", this.checked);
-        });
-    </script>
-
-        <footer>
-            <p>Portafolio 2026</p>
-        </footer>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv-website</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
